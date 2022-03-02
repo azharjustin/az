@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .welcome{
   font-family: 'Lobster', cursive;
@@ -10,4 +8,41 @@
   width: 150px;
   object-fit: cover;
   border-radius: 30px;
+}
+
+.movie-poster{
+  width: 340px;
+  height: 500px;
+  object-fit: cover;
+}
+.movie-container{
+  width: 340px;
+}
+
+.movie-specs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.movie-name{
+  margin: 0;
+  font-size: 24px;
+}
+.movie-summary{
+  margin-top: 0;
+}
+.movie-rating{
+  font-size: 18px;
+}
+.movie-list{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.counter-container{
+  display: flex;
+  gap: 10px;
 }
