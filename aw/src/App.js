@@ -2,8 +2,8 @@ import { useState } from 'react';
 import './App.css';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
-import { Msg } from './Msg';
-import { AddColor } from './AddColor';
+// import { Msg } from './Msg';
+// import { AddColor } from './AddColor';
 import { Movie } from './Movie';
 
 // const users = [
@@ -120,7 +120,7 @@ function App() {
           summary={mn.summary}
         />)}
 
-        <AddColor />
+        {/* <AddColor /> */}
       </div>
     </div>
   );
