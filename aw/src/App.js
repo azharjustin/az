@@ -2,9 +2,11 @@ import { useState } from 'react';
 import './App.css';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
-// import { Msg } from './Msg';
+import { Msg } from './Msg';
 // import { AddColor } from './AddColor';
 import { Movie } from './Movie';
+import { Switch ,Route } from 'react-router-dom';
+
 
 // const users = [
 //   {
@@ -72,29 +74,44 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Msg/> */}
-      <div className='add-movie-form'>
+
+      
+
+      <ul className='banner'>
+       
+        <li>
+        <Button href="/">Home</Button>
+      
+        </li>
+      </ul>
+
+
+      <Switch>
+        <Route path="/movies">
+
+        <div className='add-movie-form'>
         <TextField
+      
           onChange={(event) => setName(event.target.value)}
-          label="Name"
+          label="Enter a movie Name"
           variant="outlined"
         />
 
         <TextField
           onChange={(event) => setPoster(event.target.value)}
-          label="Poster"
+          label="Past a movie Poster url"
           variant="outlined"
         />
 
         <TextField
           onChange={(event) => setRating(event.target.value)}
-          label="Rating"
+          label="Enter a movie Rating"
           variant="outlined"
         />
 
         <TextField
           onChange={(event) => setSummery(event.target.value)}
-          label="Summery"
+          label="Enter a movie Summery"
           variant="outlined"
         />
 
@@ -122,6 +139,14 @@ function App() {
 
         {/* <AddColor /> */}
       </div>
+
+        </Route>
+        <Route path="/">
+          <Msg/>
+        </Route>
+
+      </Switch>
+     
     </div>
   );
 }

@@ -56,3 +56,57 @@
   gap: 10px;
   margin: 16px;
 }
+ .home{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+  height: 27px;
+   width: 100px;
+   margin-bottom: 10px;
+   padding-left: 27px;
+   padding-top: 4px;
+   background-color: rgb(176, 215, 216);
+   border-radius: 11px;
+ }
+ .out{
+   display: flex;
+   flex-wrap: wrap;
+   /* flex-direction: column; */
+   justify-content: center;
+   /* margin-left: 600px; */
+   margin-top: 40px;
+
+   
+   
+
+ }
+ .content{
+  display: flex;
+  flex-direction: column;
+ 
+   text-align: center;
+   margin-top: 0px;
+   padding-top: 90px;
+   /* padding-left: 90px; */
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+ color: rgb(1, 41, 41);
+
+
+ }
+.none{
+ 
+ height: 522px;
+
+
+ background-image: url("https://img.freepik.com/free-photo/film-rolls-yellow-background-with-copy-space_23-2148457799.jpg?w=2000");
+}
+
+.banner{
+
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-T8i6Ra8WrQ5UH4iDgYonIUbH1rk4SkT97vQlxRV5MgKmTdCeLB6otrldRHVrMPPjtlM&usqp=CAU") ;
+  margin: 0px;
+  width: 100%;
+}
+
