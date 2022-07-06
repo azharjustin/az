@@ -5,7 +5,7 @@ export function Msg() {
     <div >
       
       <div className="none" >
-        <h1 className="content">Welcome to Add movie list🎬</h1> 
+        <h1 className="content">Welcome to Movies list🎬</h1> 
      <div className="out"><button className="home"> <Link to ="/movies">Movies</Link></button></div>
      
          
